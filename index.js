@@ -207,7 +207,7 @@ function genManager(team) {
             managerData = `			
 		<div class="row center-align">
 		<div class="col s12 m4 offset-m4">
-			<div class="card teal lighten-2 center-align">
+			<div class="card teal center-align">
 				<div class="card-content black-text">
 					<span class="card-title">${obj.getName()}</span>
 					<p>${obj.getRole()}</p>
@@ -232,7 +232,7 @@ function genEngineer(obj) {
     return `			
   <div class="row center-align">
   <div class="col s12 m4 offset-m4">
-	<div class="card teal lighten-2 center-align">
+	<div class="card teal center-align">
 	  <div class="card-content black-text">
 		<span class="card-title">${obj.getName()}</span>
 		<p>${obj.getRole()}</p>
@@ -252,7 +252,7 @@ function genIntern(obj) {
     return `			
   <div class="row center-align">
   <div class="col s12 m4 offset-m4">
-	<div class="card teal lighten-2 center-align">
+	<div class="card teal center-align">
 	  <div class="card-content black-text">
 		<span class="card-title">${obj.getName()}</span>
 		<p>${obj.getRole()}</p>
